@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            display: flex;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            margin-top: 5%;
+            
+        }
+        .image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .details {
+            flex: 1;
+            padding: 20px;
+        }
+        .logo {
+            
+        }
+        @media (max-width: 768px) {
+            .container {
+                display: grid;
+                grid-template-columns: 1f;
+                width: 80%;
+            }
+            .details{
+                padding: 0px;
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="image.png" alt="Company Logo" width="100">
+        </div>
+       
+        <div class="image">
+            <img src="DMSO.png" alt="Product Image">
+        </div>
+        <div class="details">
+            <h2>DMSO</h2>
+            <p>DMSO (Диметилсульфоксид) – это ультрачистый растворитель фармацевтического класса с <strong> исключительным уровнем чистоты 99.99%</strong>, обеспечивающим наивысшее качество для специализированных применений. Эта <strong>бесцветная, органическая жидкость</strong> получена естественным путем из древесины, не содержит синтетических добавок и вредных примесей. Благодаря <strong>высокой стабильности и чистоте</strong>, DMSO идеально подходит для использования в сферах, где требуются <strong>наиболее чистые и рафинированные</strong> вещества.
+                DMSO <strong>полностью свободен от тяжелых металлов и токсичных примесей</strong>, что гарантирует его безопасность и надежность. С температурой <strong>замерзания 18.5°C </strong>он естественным образом кристаллизуется при более низких температурах, что служит естественным индикатором его чистоты. В случае кристаллизации достаточно просто хранить продукт при комнатной температуре, чтобы вернуть его в жидкое состояние.
+                Для максимального срока годности и сохранения свойств <strong>храните бутылку плотно закрытой в прохладном, темном месте и вдали от детей</strong>.
+                
+                </p>
+        </div>
+    </div>
+</body>
+</html>
